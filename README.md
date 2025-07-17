@@ -55,7 +55,7 @@ http://spatialillusions.com/milsymbol/
 
 ## Getting started
 
-You can download [milsymbol from GitHub](https://github.com/spatialillusions/milsymbol "milsymbol"), or install it using npm:
+You can download [milsymbol from GitHub](https://github.com/spatialillusions/milsymbol "milsymbol-custom"), or install it using npm:
 `npm install milsymbol`
 
 To create your first symbol, you use the symbol method to create a symbol object:

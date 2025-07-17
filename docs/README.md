@@ -31,7 +31,7 @@ this:
     <script src="dojo/dojo.js" data-dojo-config="async: true"></script>
     <script src="app/milsymbol.js"></script>
     <script>
-      require(["milsymbol"], function (ms) {
+      require(["milsymbol-custom"], function (ms) {
         var symbol = new ms.Symbol("SFG-UCI----D", { size: 30 });
       });
     </script>

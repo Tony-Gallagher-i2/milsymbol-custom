@@ -7,7 +7,7 @@ export default [
       file: "dist/milsymbol.development.js",
       format: "umd",
       amd: {
-        id: "milsymbol"
+        id: "milsymbol-custom"
       },
       banner:
         "/**!\n" +
