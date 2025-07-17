@@ -254,6 +254,14 @@ ms.setStandard = function (standard) {
   return false;
 };
 
+ms.getStandard = function () {
+  if (this._STD2525) {
+    return "2525";
+  } else {
+    return "APP6";
+  }
+};
+
 ms.showOctagon = function () {
   ms.addSymbolPart(debug);
 };

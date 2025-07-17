@@ -19,6 +19,7 @@ export default {
     setDashArrays: [typeof ms.setDashArrays(), "object"],
     setHqStaffLength: [typeof ms.setHqStaffLength(100), "number"],
     setStandard: [typeof ms.setStandard(), "boolean"],
+    getStandard: [typeof ms.getStandard(), "string"],
     setSymbolParts: [typeof ms.setSymbolParts(), "object"],
   },
 };

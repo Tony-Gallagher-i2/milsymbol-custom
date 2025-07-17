@@ -236,6 +236,8 @@ export function getVersion(): string;
 /** Sets the preferred standard. */
 export function setStandard(standard: "2525" | "APP6"): boolean;
 
+export function getStandard(): "2525" | "APP6";
+
 
 type DrawPath = {
   type: "path";
@@ -332,6 +334,7 @@ declare const _default: {
   setDashArrays: typeof setDashArrays;
   getVersion: typeof getVersion;
   setStandard: typeof setStandard;
+  getStandard: typeof getStandard;
   addSymbolPart: typeof addSymbolPart;
 };
 
